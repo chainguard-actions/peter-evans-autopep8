@@ -1,6 +1,12 @@
 # peter-evans/autopep8
 
-Hardened GitHub Action by [Chainguard](https://www.chainguard.dev).
+Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at [https://github.com/peter-evans/autopep8](https://github.com/peter-evans/autopep8).
+
+## Versions
+
+| Version | Tag | Upstream commit |
+|---------|-----|-----------------|
+| v2.0.0 | [`v2.0.0`](https://github.com/chainguard-actions/autopep8/tree/v2.0.0) | — |
 
 ## Privacy
 

@@ -1,5 +1,7 @@
 # peter-evans/autopep8
 
+A GitHub action for autopep8, a tool that automatically formats Python code to conform to the PEP 8 style guide.
+
 Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at [https://github.com/peter-evans/autopep8](https://github.com/peter-evans/autopep8).
 
 ## Versions

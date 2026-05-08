@@ -1,4 +1,6 @@
 {
-  "upstream": "peter-evans/autopep8",
-  "version": "v2.0.0"
+  "owner": "peter-evans",
+  "repo": "autopep8",
+  "version": "",
+  "url": "https://github.com/peter-evans/autopep8"
 }

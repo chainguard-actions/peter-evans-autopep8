@@ -11,7 +11,7 @@ outputs:
     description: 'The exit code output by autopep8'
 runs:
   using: 'docker'
-  image: 'docker://peterevans/autopep8@sha256:6c914552981db6fc3fdbd72f69c005a8ad06034462f45b52e60fdb33359e1ee2' # 2.0.0
+  image: 'docker://peterevans/autopep8:2.0.0@sha256:6c914552981db6fc3fdbd72f69c005a8ad06034462f45b52e60fdb33359e1ee2'
   args:
     - ${{ inputs.args }}
 branding:

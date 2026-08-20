@@ -1,0 +1,15 @@
+name: Slash Command Dispatch
+on:
+  issue_comment:
+    types: [created]
+permissions: {}
+jobs:
+  slashCommandDispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Slash Command Dispatch
+        uses: peter-evans/slash-command-dispatch@40877f718dce0101edfc7aea2b3800cc192f9ed5 # v2
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          commands: autopep8-example
+          permission: admin
